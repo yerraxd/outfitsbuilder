@@ -9,10 +9,10 @@ public class outfit {
     private final String footwear;
     private final String outerwear;
     private final List<String> accessories;
-    private final season season;
+    private final Season season;
 
     outfit(String style, String top, String bottom, String footwear,
-           String outerwear, List<String> accessories, season season) {
+           String outerwear, List<String> accessories, Season season) {
         this.style = style;
         this.top = top;
         this.bottom = bottom;

@@ -1,5 +1,5 @@
 package outfitbuilder;
 
-public enum season {
+public enum Season {
     SPRING, SUMMER, AUTUMN, WINTER
 }
