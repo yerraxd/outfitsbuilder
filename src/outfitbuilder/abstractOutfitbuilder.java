@@ -50,7 +50,7 @@ public abstract class abstractOutfitbuilder implements outfitbuilder {
     @Override
     public outfit build() {
         if (top == null || bottom == null || footwear == null) {
-            throw new IllegalStateException("Top, bottom and footwear are required.");
+            throw new IllegalStateException("Top, bottom and footwear are required");
         }
         return new outfit(getStyleName(), top, bottom, footwear, outerwear, accessories, season);
     }

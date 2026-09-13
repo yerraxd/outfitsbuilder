@@ -6,7 +6,7 @@ public class casualOutfitbuilder extends abstractOutfitbuilder {
     public outfitbuilder addFootwear(String item) {
         if (item.equals(wardrobeItems.OXFORD_SHOES)) {
             throw new IllegalArgumentException(
-                    "Oxford shoes are not suitable for a casual outfit.");
+                    "Oxford shoes are not suitable for a casual outfit");
         }
         footwear = item;
         return this;

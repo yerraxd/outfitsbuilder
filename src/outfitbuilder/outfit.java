@@ -24,7 +24,7 @@ public class outfit {
 
     @Override
     public String toString() {
-        return style + " outfit for " + season +
+        return style + " outfit for" + season +
                 "\n  Top: " + top +
                 "\n  Bottom: " + bottom +
                 "\n  Footwear: " + footwear +

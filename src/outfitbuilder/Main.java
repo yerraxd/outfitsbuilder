@@ -35,7 +35,7 @@ public class Main {
                     .addFootwear(wardrobeItems.OXFORD_SHOES)
                     .build();
         } catch (IllegalStateException e) {
-            System.out.println("Rejected: " + e.getMessage());
+            System.out.println("Rejected:" + e.getMessage());
         }
     }
 }
